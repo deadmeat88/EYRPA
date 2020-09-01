@@ -1,0 +1,27 @@
+{
+  "DefaultProjectDescription": "Etihad Cargo Data Integrity Team Library",
+  "DefaultProjectName": "EYCargoDataIntegrityLibrary",
+  "Dependencies": {
+    "UiPath.Excel.Activities": "2.9.0-preview",
+    "UiPath.Mail.Activities": "1.9.0-preview",
+    "UiPath.System.Activities": "20.6.1-preview",
+    "UiPath.UIAutomation.Activities": "20.6.0-preview"
+  },
+  "Description": "Etihad Cargo Data Integrity Team Library",
+  "DisplayPriority": 0,
+  "ExceptionHandlerWorkflow": null,
+  "IconUri": "CustomLibraryVBIcon",
+  "IsBlank": false,
+  "Label": "Library",
+  "MainFile": "NewActivity.xaml",
+  "Name": "EYCargoDataIntegrityLibrary",
+  "NewTemplateTitle": null,
+  "PrivateFiles": [],
+  "OutputType": 1,
+  "ProjectProfile": 0,
+  "ExpressionLanguage": 0,
+  "SupportsPersistence": false,
+  "RequiresUserInteraction": true,
+  "AutoDispose": false,
+  "FileInfoCollection": []
+}
