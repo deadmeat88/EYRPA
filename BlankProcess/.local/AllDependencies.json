@@ -925,6 +925,15 @@
           "lib/net461/UiPath.Vision.Core.dll": {},
           "lib/net461/UiPath.Vision.dll": {}
         }
+      },
+      "UiPathTeam.EditPowerPointSlide.Activities/1.0.6": {
+        "type": "package",
+        "compile": {
+          "lib/_._": {}
+        },
+        "runtime": {
+          "lib/EditPowerPointSlide.dll": {}
+        }
       }
     }
   },
@@ -1822,6 +1831,17 @@
         "uipath.vision.2.1.0-preview.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
+    },
+    "UiPathTeam.EditPowerPointSlide.Activities/1.0.6": {
+      "sha512": "65gQPiYLhIEz+VDjRBClVwOpyBs12Z4qi+QkW9qC4dhIuqX7VP0GRk30Z4OgxJZqD2uYy7BAGRTJAydJFyWurg==",
+      "type": "package",
+      "path": "uipathteam.editpowerpointslide.activities/1.0.6",
+      "files": [
+        ".nupkg.metadata",
+        "lib/EditPowerPointSlide.dll",
+        "uipathteam.editpowerpointslide.activities.1.0.6.nupkg.sha512",
+        "uipathteam.editpowerpointslide.activities.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -1831,7 +1851,8 @@
       "UiPath.Excel.Activities >= 2.9.0-preview <= 2.9.0-preview",
       "UiPath.Mail.Activities >= 1.9.0-preview <= 1.9.0-preview",
       "UiPath.System.Activities >= 20.6.1-preview <= 20.6.1-preview",
-      "UiPath.UIAutomation.Activities >= 20.6.0-preview <= 20.6.0-preview"
+      "UiPath.UIAutomation.Activities >= 20.6.0-preview <= 20.6.0-preview",
+      "UiPathTeam.EditPowerPointSlide.Activities >= 1.0.6 <= 1.0.6"
     ]
   },
   "packageFolders": {
@@ -1872,6 +1893,11 @@
             "include": "Runtime",
             "target": "Package",
             "version": "[20.6.0-preview, 20.6.0-preview]"
+          },
+          "UiPathTeam.EditPowerPointSlide.Activities": {
+            "include": "Runtime",
+            "target": "Package",
+            "version": "[1.0.6, 1.0.6]"
           }
         }
       }
